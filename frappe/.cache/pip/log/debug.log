@@ -1,0 +1,445 @@
+Ignoring indexes: https://pypi.python.org/simple
+Collecting setuptools
+Collecting pip
+Installing collected packages: pip, setuptools
+
+
+Successfully installed pip-6.0.8 setuptools-12.0.5
+Starting new HTTPS connection (1): pypi.python.org
+"GET /pypi/pip/json HTTP/1.1" 200 36086
+  Starting new HTTPS connection (1): pypi.python.org
+  "GET /simple/wheel/ HTTP/1.1" 200 2100
+  "GET /packages/py2.py3/w/wheel/wheel-0.24.0-py2.py3-none-any.whl HTTP/1.1" 200 63270
+  changing mode of /home/frappe/frappe-bench/env/bin/wheel to 775
+  Starting new HTTPS connection (1): github.com
+  "GET /frappe/MySQLdb1/archive/MySQLdb-1.2.5-patched.tar.gz HTTP/1.1" 302 None
+  Starting new HTTPS connection (1): codeload.github.com
+  "GET /frappe/MySQLdb1/tar.gz/MySQLdb-1.2.5-patched HTTP/1.1" 200 81219
+  Starting new HTTPS connection (1): pypi.python.org
+  "GET /simple/chardet/ HTTP/1.1" 200 472
+  "GET /packages/source/c/chardet/chardet-2.3.0.tar.gz HTTP/1.1" 200 164346
+  "GET /simple/cssmin/ HTTP/1.1" 200 358
+  "GET /packages/source/c/cssmin/cssmin-0.2.0.tar.gz HTTP/1.1" 200 3228
+  "GET /simple/dropbox/ HTTP/1.1" 200 574
+  "GET /packages/source/d/dropbox/dropbox-2.2.0.zip HTTP/1.1" 200 691707
+  "GET /simple/gunicorn/ HTTP/1.1" 200 2719
+  "GET /packages/3.4/g/gunicorn/gunicorn-19.2.1-py2.py3-none-any.whl HTTP/1.1" 200 110235
+  "GET /simple/httplib2/ HTTP/1.1" 200 791
+  "GET /packages/source/h/httplib2/httplib2-0.9.tar.gz HTTP/1.1" 200 204584
+  "GET /simple/jinja2/ HTTP/1.1" 200 1214
+  "GET /packages/source/J/Jinja2/Jinja2-2.7.3.tar.gz HTTP/1.1" 200 378470
+  "GET /simple/markdown2/ HTTP/1.1" 200 1135
+  "GET /packages/source/m/markdown2/markdown2-2.3.0.zip HTTP/1.1" 200 145194
+  "GET /simple/markupsafe/ HTTP/1.1" 200 664
+  "GET /packages/source/M/MarkupSafe/MarkupSafe-0.23.tar.gz HTTP/1.1" 200 13416
+  "GET /simple/pygeoip/ HTTP/1.1" 200 807
+  "GET /packages/any/p/pygeoip/pygeoip-0.3.2-py2.py3-none-any.whl HTTP/1.1" 200 20296
+  "GET /simple/python-dateutil/ HTTP/1.1" 200 585
+  "GET /packages/py2.py3/p/python-dateutil/python_dateutil-2.4.0-py2.py3-none-any.whl HTTP/1.1" 200 175659
+  "GET /simple/python-memcached/ HTTP/1.1" 200 621
+  "GET /packages/source/p/python-memcached/python-memcached-1.53.tar.gz HTTP/1.1" 200 20631
+  "GET /simple/pytz/ HTTP/1.1" 200 14435
+  "GET /packages/py2.py3/p/pytz/pytz-2014.10-py2.py3-none-any.whl HTTP/1.1" 200 477007
+  "GET /simple/six/ HTTP/1.1" 200 1242
+  "GET /packages/3.3/s/six/six-1.9.0-py2.py3-none-any.whl HTTP/1.1" 200 10222
+  "GET /simple/slugify/ HTTP/1.1" 200 207
+  "GET /packages/source/s/slugify/slugify-0.0.1.tar.gz HTTP/1.1" 200 1156
+  "GET /simple/termcolor/ HTTP/1.1" 200 387
+  "GET /packages/source/t/termcolor/termcolor-1.1.0.tar.gz HTTP/1.1" 200 3912
+  "GET /simple/werkzeug/ HTTP/1.1" 200 1231
+  "GET /packages/source/W/Werkzeug/Werkzeug-0.10.1.tar.gz HTTP/1.1" 200 1134481
+  "GET /simple/semantic-version/ HTTP/1.1" 200 502
+  "GET /packages/source/s/semantic_version/semantic_version-2.3.1.tar.gz HTTP/1.1" 200 25620
+  "GET /simple/rauth/ HTTP/1.1" 200 1112
+  "GET /packages/source/r/rauth/rauth-0.7.1.tar.gz HTTP/1.1" 200 16287
+  "GET /simple/requests/ HTTP/1.1" 200 2971
+  "GET /packages/source/r/requests/requests-1.2.3.tar.gz HTTP/1.1" 200 348854
+  "GET /simple/celery/ HTTP/1.1" 200 3835
+  "GET /packages/2.7/c/celery/celery-3.1.17-py2.py3-none-any.whl HTTP/1.1" 200 514940
+  "GET /simple/redis/ HTTP/1.1" 200 1254
+  "GET /packages/source/r/redis/redis-2.10.3.tar.gz HTTP/1.1" 200 86532
+  "GET /simple/selenium/ HTTP/1.1" 200 2875
+  "GET /packages/source/s/selenium/selenium-2.44.0.tar.gz HTTP/1.1" 200 2563724
+  "GET /simple/pdfkit/ HTTP/1.1" 200 657
+  "GET /packages/2.7/p/pdfkit/pdfkit-0.5.0-py2-none-any.whl HTTP/1.1" 200 11604
+  "GET /simple/babel/ HTTP/1.1" 200 556
+  "GET /packages/source/B/Babel/Babel-1.3.tar.gz HTTP/1.1" 200 3401237
+  "GET /simple/ipython/ HTTP/1.1" 200 2586
+  "GET /packages/2.7/i/ipython/ipython-2.4.0-py2-none-any.whl HTTP/1.1" 200 2794194
+  "GET /simple/urllib3/ HTTP/1.1" 200 1531
+  Resetting dropped connection: pypi.python.org
+  "GET /packages/py2/u/urllib3/urllib3-1.10-py2-none-any.whl HTTP/1.1" 200 75510
+  "GET /simple/kombu/ HTTP/1.1" 200 3911
+  "GET /packages/2.7/k/kombu/kombu-3.0.24-py2.py3-none-any.whl HTTP/1.1" 200 238234
+  "GET /simple/billiard/ HTTP/1.1" 200 3019
+  "GET /packages/source/b/billiard/billiard-3.3.0.19.tar.gz HTTP/1.1" 200 150943
+  "GET /simple/amqp/ HTTP/1.1" 200 1549
+  "GET /packages/2.7/a/amqp/amqp-1.4.6-py2-none-any.whl HTTP/1.1" 200 49801
+  "GET /simple/anyjson/ HTTP/1.1" 200 587
+  "GET /packages/source/a/anyjson/anyjson-0.3.3.tar.gz HTTP/1.1" 200 8332
+  changing mode of /home/frappe/frappe-bench/env/bin/ipengine2 to 775
+  changing mode of /home/frappe/frappe-bench/env/bin/iptest to 775
+  changing mode of /home/frappe/frappe-bench/env/bin/ipython2 to 775
+  changing mode of /home/frappe/frappe-bench/env/bin/ipcluster2 to 775
+  changing mode of /home/frappe/frappe-bench/env/bin/ipcluster to 775
+  changing mode of /home/frappe/frappe-bench/env/bin/ipython to 775
+  changing mode of /home/frappe/frappe-bench/env/bin/ipcontroller2 to 775
+  changing mode of /home/frappe/frappe-bench/env/bin/ipcontroller to 775
+  changing mode of /home/frappe/frappe-bench/env/bin/iptest2 to 775
+  changing mode of /home/frappe/frappe-bench/env/bin/ipengine to 775
+  changing mode of /home/frappe/frappe-bench/env/bin/celery to 775
+  changing mode of /home/frappe/frappe-bench/env/bin/celeryd to 775
+  changing mode of /home/frappe/frappe-bench/env/bin/celeryd-multi to 775
+  changing mode of /home/frappe/frappe-bench/env/bin/celerybeat to 775
+  changing mode of /home/frappe/frappe-bench/env/bin/gunicorn_paster to 775
+  changing mode of /home/frappe/frappe-bench/env/bin/gunicorn to 775
+  changing mode of /home/frappe/frappe-bench/env/bin/gunicorn_django to 775
+  Starting new HTTPS connection (1): pypi.python.org
+  "GET /simple/unidecode/ HTTP/1.1" 200 643
+  "GET /packages/source/U/Unidecode/Unidecode-0.04.17.tar.gz HTTP/1.1" 200 201090
+Starting new HTTPS connection (1): pypi.python.org
+"GET /pypi/pip/json HTTP/1.1" 200 42780
+You are using pip version 6.0.8, however version 7.0.3 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+  Starting new HTTPS connection (1): pypi.python.org
+  "GET /simple/python-geoip/ HTTP/1.1" 200 386
+  "GET /packages/2.7/p/python-geoip/python_geoip-1.2-py27-none-any.whl HTTP/1.1" 200 6951
+  "GET /simple/python-geoip-geolite2/ HTTP/1.1" 200 764
+  "GET /packages/2.7/p/python-geoip-geolite2/python_geoip_geolite2-2015.0303-py2-none-any.whl HTTP/1.1" 200 17189971
+  "GET /simple/html2text/ HTTP/1.1" 200 948
+  "GET /packages/source/h/html2text/html2text-2015.6.21.tar.gz HTTP/1.1" 200 42288
+  "GET /simple/email-reply-parser/ HTTP/1.1" 200 614
+  "GET /packages/source/e/email_reply_parser/email_reply_parser-0.3.0.tar.gz HTTP/1.1" 200 3243
+  "GET /simple/click/ HTTP/1.1" 200 1409
+  "GET /packages/2.7/c/click/click-4.0-py2.py3-none-any.whl HTTP/1.1" 200 62471
+  "GET /simple/num2words/ HTTP/1.1" 200 302
+  "GET /packages/source/n/num2words/num2words-0.5.3.tar.gz HTTP/1.1" 200 22336
+You are using pip version 6.0.8, however version 7.0.3 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+  Starting new HTTPS connection (1): pypi.python.org
+  "GET /simple/erpnext/ HTTP/1.1" 404 28063
+  "GET /simple/erpnext/ HTTP/1.1" 404 28063
+  Could not find any downloads that satisfy the requirement erpnext (from -r ./apps/shopping_cart/requirements.txt (line 2))
+  No distributions at all found for erpnext (from -r ./apps/shopping_cart/requirements.txt (line 2))
+You are using pip version 6.0.8, however version 7.0.3 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Uninstalling shopping-cart-0.6.0:
+  Successfully uninstalled shopping-cart-0.6.0
+You are using pip version 6.0.8, however version 7.0.3 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Obtaining file:///home/frappe/frappe-bench/apps/frappe
+Requirement already up-to-date: chardet in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Requirement already up-to-date: cssmin in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Requirement already up-to-date: dropbox in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Collecting gunicorn from https://pypi.python.org/packages/3.4/g/gunicorn/gunicorn-19.3.0-py2.py3-none-any.whl#md5=e19df3b0d07bc2b695f02e10b017b934 (from frappe==5.0.28)
+  Downloading gunicorn-19.3.0-py2.py3-none-any.whl (110kB)
+Collecting httplib2 from https://pypi.python.org/packages/source/h/httplib2/httplib2-0.9.1.tar.gz#md5=c49590437e4c5729505d034cd34a8528 (from frappe==5.0.28)
+  Downloading httplib2-0.9.1.tar.gz (205kB)
+Requirement already up-to-date: jinja2 in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Requirement already up-to-date: markdown2 in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Requirement already up-to-date: markupsafe in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Requirement already up-to-date: mysql-python==1.2.5 in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Requirement already up-to-date: python-geoip in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Requirement already up-to-date: python-geoip-geolite2 in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Collecting python-dateutil from https://pypi.python.org/packages/any/p/python-dateutil/python_dateutil-2.4.2-py2.py3-none-any.whl#md5=c817289a1d95a355cc088e2292791a77 (from frappe==5.0.28)
+  Downloading python_dateutil-2.4.2-py2.py3-none-any.whl (188kB)
+Collecting pytz from https://pypi.python.org/packages/py2.py3/p/pytz/pytz-2015.4-py2.py3-none-any.whl#md5=88c779dd48731a34fa17f8a89a824c8f (from frappe==5.0.28)
+  Downloading pytz-2015.4-py2.py3-none-any.whl (475kB)
+Requirement already up-to-date: six in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Requirement already up-to-date: slugify in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Requirement already up-to-date: termcolor in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Collecting werkzeug from https://pypi.python.org/packages/2.7/W/Werkzeug/Werkzeug-0.10.4-py2.py3-none-any.whl#md5=4017a2ed262cfa973f76108eb488e5be (from frappe==5.0.28)
+  Downloading Werkzeug-0.10.4-py2.py3-none-any.whl (293kB)
+Collecting semantic-version from https://pypi.python.org/packages/source/s/semantic_version/semantic_version-2.4.1.tar.gz#md5=7f48fc406cbdf892f4427b7319f5d970 (from frappe==5.0.28)
+  Downloading semantic_version-2.4.1.tar.gz
+Requirement already up-to-date: rauth>=0.6.2 in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Collecting requests from https://pypi.python.org/packages/2.7/r/requests/requests-2.7.0-py2.py3-none-any.whl#md5=564fb256f865a79f977e57b79d31659a (from frappe==5.0.28)
+  Downloading requests-2.7.0-py2.py3-none-any.whl (470kB)
+Collecting celery from https://pypi.python.org/packages/2.7/c/celery/celery-3.1.18-py2.py3-none-any.whl#md5=692453eb7257cc7b70b538fb3fc2f395 (from frappe==5.0.28)
+  Downloading celery-3.1.18-py2.py3-none-any.whl (515kB)
+Requirement already up-to-date: redis in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Collecting selenium from https://pypi.python.org/packages/source/s/selenium/selenium-2.46.0.tar.gz#md5=6db65e1e7653da0fdc514df5db76d662 (from frappe==5.0.28)
+  Downloading selenium-2.46.0.tar.gz (2.6MB)
+Requirement already up-to-date: pdfkit in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Requirement already up-to-date: babel in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Collecting ipython from https://pypi.python.org/packages/2.7/i/ipython/ipython-3.2.0-py2-none-any.whl#md5=a90449b96ad77d357d0328fdd14a4605 (from frappe==5.0.28)
+  Downloading ipython-3.2.0-py2-none-any.whl (3.4MB)
+Requirement already up-to-date: html2text in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Requirement already up-to-date: email-reply-parser in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Requirement already up-to-date: click in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Requirement already up-to-date: num2words in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Collecting urllib3 from https://pypi.python.org/packages/py2/u/urllib3/urllib3-1.10.4-py2-none-any.whl#md5=4910c50d33f6657ef051a2df3cd2f613 (from dropbox->frappe==5.0.28)
+  Downloading urllib3-1.10.4-py2-none-any.whl (79kB)
+Collecting billiard<3.4,>=3.3.0.20 (from celery->frappe==5.0.28)
+  Downloading billiard-3.3.0.20.tar.gz (150kB)
+Collecting kombu<3.1,>=3.0.25 (from celery->frappe==5.0.28)
+  Downloading kombu-3.0.26-py2.py3-none-any.whl (238kB)
+Requirement already up-to-date: amqp<2.0,>=1.4.5 in ./env/lib/python2.7/site-packages (from kombu<3.1,>=3.0.25->celery->frappe==5.0.28)
+Requirement already up-to-date: anyjson>=0.3.3 in ./env/lib/python2.7/site-packages (from kombu<3.1,>=3.0.25->celery->frappe==5.0.28)
+Installing collected packages: kombu, billiard, urllib3, frappe, ipython, selenium, celery, requests, semantic-version, werkzeug, pytz, python-dateutil, httplib2, gunicorn
+  Found existing installation: kombu 3.0.24
+    Uninstalling kombu-3.0.24:
+      Successfully uninstalled kombu-3.0.24
+
+  Found existing installation: billiard 3.3.0.19
+    Uninstalling billiard-3.3.0.19:
+      Successfully uninstalled billiard-3.3.0.19
+  Running setup.py install for billiard
+    building '_billiard' extension
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_SEM_OPEN=1 -DHAVE_FD_TRANSFER=1 -DHAVE_SEM_TIMEDWAIT=1 -IModules/_billiard -I/usr/include/python2.7 -c Modules/_billiard/multiprocessing.c -o build/temp.linux-x86_64-2.7/Modules/_billiard/multiprocessing.o
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_SEM_OPEN=1 -DHAVE_FD_TRANSFER=1 -DHAVE_SEM_TIMEDWAIT=1 -IModules/_billiard -I/usr/include/python2.7 -c Modules/_billiard/socket_connection.c -o build/temp.linux-x86_64-2.7/Modules/_billiard/socket_connection.o
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_SEM_OPEN=1 -DHAVE_FD_TRANSFER=1 -DHAVE_SEM_TIMEDWAIT=1 -IModules/_billiard -I/usr/include/python2.7 -c Modules/_billiard/semaphore.c -o build/temp.linux-x86_64-2.7/Modules/_billiard/semaphore.o
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/Modules/_billiard/multiprocessing.o build/temp.linux-x86_64-2.7/Modules/_billiard/socket_connection.o build/temp.linux-x86_64-2.7/Modules/_billiard/semaphore.o -lrt -o build/lib.linux-x86_64-2.7/_billiard.so
+  Found existing installation: urllib3 1.10
+    Uninstalling urllib3-1.10:
+      Successfully uninstalled urllib3-1.10
+
+  Running setup.py develop for frappe
+    Creating /home/frappe/frappe-bench/env/lib/python2.7/site-packages/frappe.egg-link (link to .)
+    frappe 5.0.28 is already the active version in easy-install.pth
+    Installed /home/frappe/frappe-bench/apps/frappe
+  Found existing installation: ipython 2.4.0
+    Uninstalling ipython-2.4.0:
+      Successfully uninstalled ipython-2.4.0
+
+  Found existing installation: selenium 2.44.0
+    Uninstalling selenium-2.44.0:
+      Successfully uninstalled selenium-2.44.0
+  Running setup.py install for selenium
+  Found existing installation: celery 3.1.17
+    Uninstalling celery-3.1.17:
+      Successfully uninstalled celery-3.1.17
+
+  Found existing installation: requests 1.2.3
+    Uninstalling requests-1.2.3:
+      Successfully uninstalled requests-1.2.3
+
+  Found existing installation: semantic-version 2.3.1
+    Uninstalling semantic-version-2.3.1:
+      Successfully uninstalled semantic-version-2.3.1
+  Running setup.py install for semantic-version
+  Found existing installation: Werkzeug 0.10.1
+    Uninstalling Werkzeug-0.10.1:
+      Successfully uninstalled Werkzeug-0.10.1
+
+  Found existing installation: pytz 2014.10
+    Uninstalling pytz-2014.10:
+      Successfully uninstalled pytz-2014.10
+
+  Found existing installation: python-dateutil 2.4.0
+    Uninstalling python-dateutil-2.4.0:
+      Successfully uninstalled python-dateutil-2.4.0
+
+  Found existing installation: httplib2 0.9
+    Uninstalling httplib2-0.9:
+      Successfully uninstalled httplib2-0.9
+  Running setup.py install for httplib2
+  Found existing installation: gunicorn 19.2.1
+    Uninstalling gunicorn-19.2.1:
+      Successfully uninstalled gunicorn-19.2.1
+  Compiling /tmp/pip-build-D2z0_R/gunicorn/gunicorn/workers/_gaiohttp.py
+  
+
+Successfully installed billiard-3.3.0.20 celery-3.1.18 frappe-5.0.28 gunicorn-19.3.0 httplib2-0.9.1 ipython-3.2.0 kombu-3.0.26 python-dateutil-2.4.2 pytz-2015.4 requests-2.7.0 selenium-2.46.0 semantic-version-2.4.1 urllib3-1.10.4 werkzeug-0.10.4
+You are using pip version 6.0.8, however version 7.0.3 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Obtaining file:///home/frappe/frappe-bench/apps/erpnext
+Requirement already up-to-date: frappe in ./apps/frappe (from erpnext==5.0.27)
+Collecting unidecode from https://pypi.python.org/packages/source/U/Unidecode/Unidecode-0.04.18.tar.gz#md5=148a6b31e4fdedc444fe2c6430af3f82 (from erpnext==5.0.27)
+  Downloading Unidecode-0.04.18.tar.gz (206kB)
+    /home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/setuptools/dist.py:283: UserWarning: The version specified requires normalization, consider using '0.4.18' instead of '0.04.18'.
+      self.metadata.version,
+Requirement already up-to-date: chardet in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: cssmin in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: dropbox in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: gunicorn in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: httplib2 in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: jinja2 in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: markdown2 in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: markupsafe in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: mysql-python==1.2.5 in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: python-geoip in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: python-geoip-geolite2 in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: python-dateutil in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: pytz in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: six in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: slugify in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: termcolor in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: werkzeug in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: semantic-version in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: rauth>=0.6.2 in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: requests in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: celery in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: redis in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: selenium in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: pdfkit in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: babel in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: ipython in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: html2text in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: email-reply-parser in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: click in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: num2words in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: urllib3 in ./env/lib/python2.7/site-packages (from dropbox->frappe->erpnext==5.0.27)
+Requirement already up-to-date: billiard<3.4,>=3.3.0.20 in ./env/lib/python2.7/site-packages (from celery->frappe->erpnext==5.0.27)
+Requirement already up-to-date: kombu<3.1,>=3.0.25 in ./env/lib/python2.7/site-packages (from celery->frappe->erpnext==5.0.27)
+Requirement already up-to-date: amqp<2.0,>=1.4.5 in ./env/lib/python2.7/site-packages (from kombu<3.1,>=3.0.25->celery->frappe->erpnext==5.0.27)
+Requirement already up-to-date: anyjson>=0.3.3 in ./env/lib/python2.7/site-packages (from kombu<3.1,>=3.0.25->celery->frappe->erpnext==5.0.27)
+Installing collected packages: erpnext, unidecode
+  Running setup.py develop for erpnext
+    Creating /home/frappe/frappe-bench/env/lib/python2.7/site-packages/erpnext.egg-link (link to .)
+    erpnext 5.0.27 is already the active version in easy-install.pth
+    Installed /home/frappe/frappe-bench/apps/erpnext
+  Found existing installation: Unidecode 0.4.17
+    Uninstalling Unidecode-0.4.17:
+      Successfully uninstalled Unidecode-0.4.17
+  Running setup.py install for unidecode
+    /home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/setuptools/dist.py:283: UserWarning: The version specified requires normalization, consider using '0.4.18' instead of '0.04.18'.
+      self.metadata.version,
+    Installing unidecode script to /home/frappe/frappe-bench/env/bin
+Successfully installed erpnext-5.0.27 unidecode-0.4.18
+You are using pip version 6.0.8, however version 7.0.3 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Obtaining file:///home/frappe/frappe-bench/apps/frappe
+Requirement already satisfied (use --upgrade to upgrade): chardet in ./env/lib/python2.7/site-packages (from frappe==4.14.3)
+Requirement already satisfied (use --upgrade to upgrade): cssmin in ./env/lib/python2.7/site-packages (from frappe==4.14.3)
+Requirement already satisfied (use --upgrade to upgrade): dropbox in ./env/lib/python2.7/site-packages (from frappe==4.14.3)
+Requirement already satisfied (use --upgrade to upgrade): gunicorn in ./env/lib/python2.7/site-packages (from frappe==4.14.3)
+Requirement already satisfied (use --upgrade to upgrade): httplib2 in ./env/lib/python2.7/site-packages (from frappe==4.14.3)
+Requirement already satisfied (use --upgrade to upgrade): jinja2 in ./env/lib/python2.7/site-packages (from frappe==4.14.3)
+Requirement already satisfied (use --upgrade to upgrade): markdown2 in ./env/lib/python2.7/site-packages (from frappe==4.14.3)
+Requirement already satisfied (use --upgrade to upgrade): markupsafe in ./env/lib/python2.7/site-packages (from frappe==4.14.3)
+Requirement already satisfied (use --upgrade to upgrade): mysql-python==1.2.5 in ./env/lib/python2.7/site-packages (from frappe==4.14.3)
+Requirement already satisfied (use --upgrade to upgrade): pygeoip in ./env/lib/python2.7/site-packages (from frappe==4.14.3)
+Requirement already satisfied (use --upgrade to upgrade): python-dateutil in ./env/lib/python2.7/site-packages (from frappe==4.14.3)
+Requirement already satisfied (use --upgrade to upgrade): python-memcached==1.53 in ./env/lib/python2.7/site-packages (from frappe==4.14.3)
+Requirement already satisfied (use --upgrade to upgrade): pytz in ./env/lib/python2.7/site-packages (from frappe==4.14.3)
+Requirement already satisfied (use --upgrade to upgrade): six in ./env/lib/python2.7/site-packages (from frappe==4.14.3)
+Requirement already satisfied (use --upgrade to upgrade): slugify in ./env/lib/python2.7/site-packages (from frappe==4.14.3)
+Requirement already satisfied (use --upgrade to upgrade): termcolor in ./env/lib/python2.7/site-packages (from frappe==4.14.3)
+Requirement already satisfied (use --upgrade to upgrade): werkzeug in ./env/lib/python2.7/site-packages (from frappe==4.14.3)
+Requirement already satisfied (use --upgrade to upgrade): semantic-version in ./env/lib/python2.7/site-packages (from frappe==4.14.3)
+Requirement already satisfied (use --upgrade to upgrade): rauth>=0.6.2 in ./env/lib/python2.7/site-packages (from frappe==4.14.3)
+Collecting requests==1.2.3 (from frappe==4.14.3)
+  Using cached requests-1.2.3.tar.gz
+Requirement already satisfied (use --upgrade to upgrade): celery in ./env/lib/python2.7/site-packages (from frappe==4.14.3)
+Requirement already satisfied (use --upgrade to upgrade): redis in ./env/lib/python2.7/site-packages (from frappe==4.14.3)
+Requirement already satisfied (use --upgrade to upgrade): selenium in ./env/lib/python2.7/site-packages (from frappe==4.14.3)
+Requirement already satisfied (use --upgrade to upgrade): pdfkit in ./env/lib/python2.7/site-packages (from frappe==4.14.3)
+Requirement already satisfied (use --upgrade to upgrade): babel in ./env/lib/python2.7/site-packages (from frappe==4.14.3)
+Requirement already satisfied (use --upgrade to upgrade): ipython in ./env/lib/python2.7/site-packages (from frappe==4.14.3)
+Requirement already satisfied (use --upgrade to upgrade): click in ./env/lib/python2.7/site-packages (from frappe==4.14.3)
+Requirement already satisfied (use --upgrade to upgrade): urllib3 in ./env/lib/python2.7/site-packages (from dropbox->frappe==4.14.3)
+Requirement already satisfied (use --upgrade to upgrade): billiard<3.4,>=3.3.0.20 in ./env/lib/python2.7/site-packages (from celery->frappe==4.14.3)
+Requirement already satisfied (use --upgrade to upgrade): kombu<3.1,>=3.0.25 in ./env/lib/python2.7/site-packages (from celery->frappe==4.14.3)
+Requirement already satisfied (use --upgrade to upgrade): amqp<2.0,>=1.4.5 in ./env/lib/python2.7/site-packages (from kombu<3.1,>=3.0.25->celery->frappe==4.14.3)
+Requirement already satisfied (use --upgrade to upgrade): anyjson>=0.3.3 in ./env/lib/python2.7/site-packages (from kombu<3.1,>=3.0.25->celery->frappe==4.14.3)
+Installing collected packages: frappe, requests
+  Running setup.py develop for frappe
+    Creating /home/frappe/frappe-bench/env/lib/python2.7/site-packages/frappe.egg-link (link to .)
+    frappe 4.14.3 is already the active version in easy-install.pth
+    Installing frappe script to /home/frappe/frappe-bench/env/bin
+    Installed /home/frappe/frappe-bench/apps/frappe
+  Found existing installation: requests 2.7.0
+    Uninstalling requests-2.7.0:
+      Successfully uninstalled requests-2.7.0
+  Running setup.py install for requests
+Successfully installed frappe-4.14.3 requests-1.2.3
+You are using pip version 6.0.8, however version 7.0.3 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+You are using pip version 6.0.8, however version 7.0.3 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+You are using pip version 6.0.8, however version 7.0.3 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Obtaining file:///home/frappe/frappe-bench/apps/frappe
+Requirement already up-to-date: chardet in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Requirement already up-to-date: cssmin in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Requirement already up-to-date: dropbox in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Requirement already up-to-date: gunicorn in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Requirement already up-to-date: httplib2 in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Requirement already up-to-date: jinja2 in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Requirement already up-to-date: markdown2 in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Requirement already up-to-date: markupsafe in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Requirement already up-to-date: mysql-python==1.2.5 in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Requirement already up-to-date: python-geoip in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Requirement already up-to-date: python-geoip-geolite2 in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Requirement already up-to-date: python-dateutil in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Requirement already up-to-date: pytz in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Requirement already up-to-date: six in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Requirement already up-to-date: slugify in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Requirement already up-to-date: termcolor in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Requirement already up-to-date: werkzeug in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Requirement already up-to-date: semantic-version in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Requirement already up-to-date: rauth>=0.6.2 in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Collecting requests from https://pypi.python.org/packages/2.7/r/requests/requests-2.7.0-py2.py3-none-any.whl#md5=564fb256f865a79f977e57b79d31659a (from frappe==5.0.28)
+  Using cached requests-2.7.0-py2.py3-none-any.whl
+Requirement already up-to-date: celery in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Requirement already up-to-date: redis in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Requirement already up-to-date: selenium in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Requirement already up-to-date: pdfkit in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Requirement already up-to-date: babel in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Requirement already up-to-date: ipython in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Requirement already up-to-date: html2text in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Requirement already up-to-date: email-reply-parser in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Requirement already up-to-date: click in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Requirement already up-to-date: num2words in ./env/lib/python2.7/site-packages (from frappe==5.0.28)
+Requirement already up-to-date: urllib3 in ./env/lib/python2.7/site-packages (from dropbox->frappe==5.0.28)
+Requirement already up-to-date: billiard<3.4,>=3.3.0.20 in ./env/lib/python2.7/site-packages (from celery->frappe==5.0.28)
+Requirement already up-to-date: kombu<3.1,>=3.0.25 in ./env/lib/python2.7/site-packages (from celery->frappe==5.0.28)
+Requirement already up-to-date: amqp<2.0,>=1.4.5 in ./env/lib/python2.7/site-packages (from kombu<3.1,>=3.0.25->celery->frappe==5.0.28)
+Requirement already up-to-date: anyjson>=0.3.3 in ./env/lib/python2.7/site-packages (from kombu<3.1,>=3.0.25->celery->frappe==5.0.28)
+Installing collected packages: frappe, requests
+  Running setup.py develop for frappe
+    Creating /home/frappe/frappe-bench/env/lib/python2.7/site-packages/frappe.egg-link (link to .)
+    frappe 5.0.28 is already the active version in easy-install.pth
+    Installed /home/frappe/frappe-bench/apps/frappe
+  Found existing installation: requests 1.2.3
+    Uninstalling requests-1.2.3:
+      Successfully uninstalled requests-1.2.3
+
+Successfully installed frappe-5.0.28 requests-2.7.0
+You are using pip version 6.0.8, however version 7.0.3 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Obtaining file:///home/frappe/frappe-bench/apps/erpnext
+Requirement already up-to-date: frappe in ./apps/frappe (from erpnext==5.0.27)
+Requirement already up-to-date: unidecode in ./env/lib/python2.7/site-packages (from erpnext==5.0.27)
+Requirement already up-to-date: chardet in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: cssmin in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: dropbox in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: gunicorn in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: httplib2 in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: jinja2 in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: markdown2 in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: markupsafe in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: mysql-python==1.2.5 in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: python-geoip in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: python-geoip-geolite2 in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: python-dateutil in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: pytz in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: six in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: slugify in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: termcolor in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: werkzeug in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: semantic-version in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: rauth>=0.6.2 in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: requests in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: celery in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: redis in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: selenium in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: pdfkit in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: babel in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: ipython in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: html2text in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: email-reply-parser in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: click in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: num2words in ./env/lib/python2.7/site-packages (from frappe->erpnext==5.0.27)
+Requirement already up-to-date: urllib3 in ./env/lib/python2.7/site-packages (from dropbox->frappe->erpnext==5.0.27)
+Requirement already up-to-date: billiard<3.4,>=3.3.0.20 in ./env/lib/python2.7/site-packages (from celery->frappe->erpnext==5.0.27)
+Requirement already up-to-date: kombu<3.1,>=3.0.25 in ./env/lib/python2.7/site-packages (from celery->frappe->erpnext==5.0.27)
+Requirement already up-to-date: amqp<2.0,>=1.4.5 in ./env/lib/python2.7/site-packages (from kombu<3.1,>=3.0.25->celery->frappe->erpnext==5.0.27)
+Requirement already up-to-date: anyjson>=0.3.3 in ./env/lib/python2.7/site-packages (from kombu<3.1,>=3.0.25->celery->frappe->erpnext==5.0.27)
+Installing collected packages: erpnext
+  Running setup.py develop for erpnext
+    Creating /home/frappe/frappe-bench/env/lib/python2.7/site-packages/erpnext.egg-link (link to .)
+    erpnext 5.0.27 is already the active version in easy-install.pth
+    Installed /home/frappe/frappe-bench/apps/erpnext
+Successfully installed erpnext-5.0.27
